@@ -32,7 +32,7 @@
                     <a href="" class="btn my-4" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
-                    <img src="C:\xampp\htdocs\PORTFOLIO\images\fotocv.jpg" alt="Esteban Palavecino" title="Esteban Palavecino" class="img-fluid img-circle">
+                    <img src="images/fotocv.jpg" alt="Esteban Palavecino" title="Esteban Palavecino" class="img-fluid img-circle">
                 </div>
             </div>
             <div class="row my-sm-4 my-3">
