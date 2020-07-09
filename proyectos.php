@@ -1,3 +1,5 @@
+<?php $pg = "proyectos"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,27 +17,11 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="proyectos.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <?php
+       
+        include_once("menu.php")
+        
+        ?>
         <section id="proyectos">
             <div class="container">
                 <div class="row mt-5">

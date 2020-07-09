@@ -1,3 +1,5 @@
+<?php $pg = "sobre-mi"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,27 +18,11 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navbar navbar-expand-sm">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  active" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <?php
+        
+            include_once("menu.php")
+            
+            ?>
         </header>
         <section id="sobre-mi">
             <div class="row mt-5">
@@ -46,7 +32,7 @@
                     <a href="" class="btn my-4" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
-                    <img src="C:\Users\esteb\OneDrive\Desktop\Esteban\20180312_114541.jpg" alt="Esteban Palavecino" title="Esteban Palavecino" class="img-fluid img-circle">
+                    <img src="C:\xampp\htdocs\PORTFOLIO\images\fotocv.jpg" alt="Esteban Palavecino" title="Esteban Palavecino" class="img-fluid img-circle">
                 </div>
             </div>
             <div class="row my-sm-4 my-3">
