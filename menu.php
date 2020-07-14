@@ -17,6 +17,6 @@
             <li class="nav-item">
                 <a class="nav-link <?php echo $pg == "contacto"? "active" : "";?>" href="contacto.php">Contacto</a>
             </li>
-        </ul>
+        </ul>       
     </div>
 </nav>
